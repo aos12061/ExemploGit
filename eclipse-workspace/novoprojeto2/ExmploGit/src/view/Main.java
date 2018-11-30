@@ -1,6 +1,6 @@
 package view;
 
-import controller.SoController;
+import SoController.SoController;
 
 public class Main {
 
@@ -8,7 +8,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		SoController soController = new SoController();
 		System.out.println(soController.os());
-
+		System.out.println(soController.version());
 	}
 
 }
